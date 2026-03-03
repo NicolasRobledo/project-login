@@ -13,4 +13,9 @@ public class HolaController {
     public ApiResponse hola() {
         return new ApiResponse("Hola Mundo");
     }
+    
+    @GetMapping("/segundohola")
+    public ApiResponse segundoHola() {
+        return new ApiResponse("Segundo Hola Mundo");
+    }
 }
