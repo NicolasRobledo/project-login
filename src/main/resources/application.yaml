@@ -1,3 +1,7 @@
 spring:
   application:
     name: project-login
+  security:
+    user:
+      name: tony
+      password: 1234
